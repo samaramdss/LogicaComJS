@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+
+<script>
+	// Melhorando o código
+    var ano = 2016;
+	var puloLinha = "<br><br>";
+
+    //document.write("Flávio tem " + (ano - 1977) + " anos");
+	//document.write(puloLinha);
+    //document.write("Joaquim tem " + (ano - 1996) + " anos");
+    //document.write(puloLinha);
+
+
+    ano = 2017;
+	//document.write("Barney tem " + (ano - 1976) + " anos");
+	//document.write(puloLinha);
+	
+	/// 02. Funções
+	function pularLinha(){
+		document.write("<br>");
+	}
+	
+	//document.write("Flávio tem " + (ano - 1977) + " anos");
+	// pularLinha();
+	//document.write("Joaquim tem " + (ano - 1996) + " anos");
+	//pularLinha();
+	
+	// 03. Funções com parâmetros
+	function mostrarFrase(frase) {
+		document.write(frase);
+		pularLinha();
+	}
+	
+	mostrarFrase("Flávio tem " + (ano - 1977) + " anos");
+	mostrarFrase("Joaquim tem " + (ano - 1996) + " anos");
+    
+</script>

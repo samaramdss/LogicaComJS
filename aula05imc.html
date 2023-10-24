@@ -1,0 +1,61 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+	function calcularImc(peso, altura){
+		var imc = peso / (altura*altura);
+		return imc;
+	}
+/*
+	var pesoFlavio = 73;
+	var alturaFlavio = 1.71;
+	var imcFlavio = pesoFlavio / (alturaFlavio*alturaFlavio);
+	
+	var pesoAmigo = 68;
+	var alturaAmigo = 1.72;
+
+	////mostra ("O IMC do Flavio é: "+imcFlavio);
+
+/// com função agr
+
+	calcularImc(pesoFlavio, alturaFlavio);
+	calcularImc (pesoAmigo, alturaAmigo);
+	
+///Retorno de funções
+	var imcFlavio = calcularImc(pesoFlavio, alturaFlavio);
+	var imcAmigo = calcularImc(pesoAmigo, alturaAmigo);
+	
+	mostra("IMC do Flavio é: " + imcFlavio);
+	mostra("IMC do Amigo é: " + imcAmigo);
+
+
+/// Entendendo o retorno de funções
+	var totalIMC = imcFlavio + imcAmigo;
+	document.write("A soma dos IMCs é:" + totalIMC);
+
+	totalIMC = calcularImc (pesoFlavio, alturaFlavio) + calcularImc (pesoAmigo, alturaAmigo);
+	document.write("A soma dos IMCs usando diretamente a funcao é: " + totalIMC);
+*/
+/// Interagindo com o usuário
+
+
+var alturaInformada = prompt("Informe sua altura");
+var pesoInformado = prompt("Informe seu peso:");
+
+calcularImc(alturaInformada, pesoInformado);
+document.write("O seu imc é: " + imc);
+
+</script>
