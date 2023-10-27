@@ -10,3 +10,4 @@ console.log(typeof numero);
 console.log(typeof texto);
 
 // boa prática: usar === e conversão explícita
+//  commit pra teste
