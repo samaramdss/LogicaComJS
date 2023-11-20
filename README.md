@@ -1,1 +1,1 @@
-Este projeto te ensina a usar o git
+Curso introdutório de Lógica da Programação com JavaScript na Alura
